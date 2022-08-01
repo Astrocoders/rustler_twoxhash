@@ -1,0 +1,14 @@
+[package]
+name = "twoxhash"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "twoxhash"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.25.0"
+twox-hash = "1.6"
